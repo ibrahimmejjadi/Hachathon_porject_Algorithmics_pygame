@@ -22,7 +22,7 @@ player = pygame.Rect(500, 400, 40, 40)
 player_speed = 5
 
 enemy_speed= 3
-bg_image = pygame.transform.scale(pygame.image.load('C:/Users/Algorithmics 4/.vscode/extensions/algoritmika.algopython-20260331.160100.0/temp/Game_Ibrahim_Rayan_Ben_abdsselam/background0.png'),(WIDTH,HEIGHT))
+bg_image = pygame.transform.scale(pygame.image.load('background0.png'),(WIDTH,HEIGHT))
 
 food = pygame.Rect(random.randint(10, 960), random.randint(10, 760), 25, 25)
 
